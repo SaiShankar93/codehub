@@ -32,5 +32,15 @@ import ed1 from './ed1.jpg';
 import ed2 from './ed2.jpg'
 import ed3 from './ed3.jpg'
 import ed4 from './ed4.jpg'
+import ai1 from './ai1.jpg';
+import ai2 from './ai2.jpg';
+import ai3 from './ai3.jpg';
+import ai4 from './ai4.jpg';
+import hx1 from './hx1.jpg';
+import hx2 from './hx2.jpg';
+import hx3 from './hx3.jpg';
+import hx4 from './hx4.jpg';
+import sih1 from './sih1.jpg';
+import sih2 from './sih2.jpg';
 
-export { bw1, bw2, bw3, bw4 , cc1, cc2, cc3, cc4, cs1, cs2, cs3, cs4 ,cs5, InstagramIcon, YoutubeIcon, GmailIcon, TelegramIcon, LinkedInIcon ,logo,mlw,fw,bw,maw,fe1,fe2,be1,be2,be3,ml1,ma1,ed1,ed2,ed3,ed4};
+export {sih1,sih2,hx1,hx2,hx3,hx4, ai1,ai2,ai3,ai4, bw1, bw2, bw3, bw4 , cc1, cc2, cc3, cc4, cs1, cs2, cs3, cs4 ,cs5, InstagramIcon, YoutubeIcon, GmailIcon, TelegramIcon, LinkedInIcon ,logo,mlw,fw,bw,maw,fe1,fe2,be1,be2,be3,ml1,ma1,ed1,ed2,ed3,ed4};

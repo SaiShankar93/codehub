@@ -19,12 +19,144 @@ import {
   cs2,
   cs3,
   cs4,
-  cs5
+  cs5,
+  ai1,
+  ai2,
+  ai3,
+  ai4,
+  hx1,
+  hx2,
+  hx3,
+  hx4,
+  sih1,
+  sih2
 } from "../../../public";
 import { useSelector } from "react-redux";
 export function TimelineSection() {
   const theme = useSelector((state: any) => state.theme.theme);
   const data = [
+    {
+      title: "25 Jan 2025",
+      content: (
+        <div>
+          <h1
+            className={` ${
+              theme === "dark" ? "text-neutral-200" : "text-neutral-800"
+            } text-2xl md:text-lg font-bold mb-8`}
+          >
+            AI Hack Day 2025
+          </h1>
+          <p
+            className={` ${
+              theme === "dark" ? "text-neutral-200" : "text-neutral-800"
+            } text-sm md:text-sm font-normal mb-8`}
+          >
+            <i> Codehub in Collaboration with SWECHA .</i>
+          </p>
+          <p
+            className={` ${
+              theme === "dark" ? "text-neutral-200" : "text-neutral-800"
+            } text-sm md:text-sm font-normal mb-8`}
+          >
+            <span className="text-lg font-bold">Event Highlights</span> <br />{" "}
+            <br />
+            SWECHA organized a national-level hackathon; as part of this
+            initiative, each college hosted a qualifying event, with selected
+            students advancing to the next stage. IIITH representatives visited
+            our college to interact with and evaluate participating students.
+            <br />
+          </p>
+
+          <div className="grid grid-cols-2 gap-4">
+            <Image
+              src={ai1}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={ai2}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={ai3}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={ai4}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+          </div>
+        </div>
+      )
+    },
+    {
+      title: "15 Sep 2024",
+      content: (
+        <div>
+          <h1
+            className={` ${
+              theme === "dark" ? "text-neutral-200" : "text-neutral-800"
+            } text-2xl md:text-lg font-bold mb-8`}
+          >
+            Smart Innovation Hackathon
+          </h1>
+          {/* <p
+            className={` ${
+              theme === "dark" ? "text-neutral-200" : "text-neutral-800"
+            } text-sm md:text-sm font-normal mb-8`}
+          >
+            <i> Codehub in Collaboration with Alumni of JBIET.</i>
+          </p> */}
+          <p
+            className={` ${
+              theme === "dark" ? "text-neutral-200" : "text-neutral-800"
+            } text-sm md:text-sm font-normal mb-8`}
+          >
+            <span className="text-lg font-bold">Event Highlights</span> <br />{" "}
+            <br />
+            Smart Innovation Hackathon is the Internal Hackathon, which was
+            organized to select/ nominate best teams for the Smart India
+            Hackathon (SIH) by MHRD. Smart Innovation Hackathon continued for 2
+            days in JBIET Campus
+            <br />
+            A total 35 teams participated for the Hackathon where each team
+            contained 6 members including male and female students
+            <br />
+            A total 15 teams were selected from Hardware and Software
+            Editions. Winners of Hardware Edition and Software edition were
+            awarded with cash prize.
+          </p>
+
+          <div className="grid grid-cols-2 gap-4">
+            <Image
+              src={sih1}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={sih2}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+          </div>
+        </div>
+      )
+    },
     {
       title: "15 Sep 2024",
       content: (
@@ -41,25 +173,30 @@ export function TimelineSection() {
               theme === "dark" ? "text-neutral-200" : "text-neutral-800"
             } text-sm md:text-sm font-normal mb-8`}
           >
-           <i> Codehub in Collaboration with Alumni of JBIET.</i>
-        </p>
+            <i> Codehub in Collaboration with Alumni of JBIET.</i>
+          </p>
           <p
             className={` ${
               theme === "dark" ? "text-neutral-200" : "text-neutral-800"
             } text-sm md:text-sm font-normal mb-8`}
           >
-                        <span className="text-lg font-bold">Event Highlights</span> <br />{" "}
+            <span className="text-lg font-bold">Event Highlights</span> <br />{" "}
             <br />
-
             <strong>Event Collaboration:</strong> CodeHub in collaboration with
-            Our alumni at JBIET hosted an insightful event about the importance of Engineers.
+            Our alumni at JBIET hosted an insightful event about the importance
+            of Engineers.
             <br />
-            <strong>Interaction with students:</strong> Students actively participated in the session, clarified their doubts, and 
-            explored the corporate world in their own words, Students got to know the real scenarios of an engineer daily.
+            <strong>Interaction with students:</strong> Students actively
+            participated in the session, clarified their doubts, and explored
+            the corporate world in their own words, Students got to know the
+            real scenarios of an engineer daily.
             <br />
-            <strong>Website Launch Setup:</strong> Codehub Website has been launched by our Principal, gave valuable insights on engineers and their importance 
+            <strong>Website Launch Setup:</strong> Codehub Website has been
+            launched by our Principal, gave valuable insights on engineers and
+            their importance
             <br />
-            <strong>Event Conclusion:</strong> The event concluded with a rapid-fire with Alumni, a day in their workspace.
+            <strong>Event Conclusion:</strong> The event concluded with a
+            rapid-fire with Alumni, a day in their workspace.
           </p>
 
           <div className="grid grid-cols-2 gap-4">
@@ -96,6 +233,67 @@ export function TimelineSection() {
       )
     },
     {
+      title: "15 Sep 2024",
+      content: (
+        <div>
+          <h1
+            className={` ${
+              theme === "dark" ? "text-neutral-200" : "text-neutral-800"
+            } text-2xl md:text-lg font-bold mb-8`}
+          >
+            AI Mastery Bootcamp
+          </h1>
+          <p
+            className={` ${
+              theme === "dark" ? "text-neutral-200" : "text-neutral-800"
+            } text-sm md:text-sm font-normal mb-8`}
+          >
+            <i> Codehub in Collaboration with Hexart.</i>
+          </p>
+          <p
+            className={` ${
+              theme === "dark" ? "text-neutral-200" : "text-neutral-800"
+            } text-sm md:text-sm font-normal mb-8`}
+          >
+            <span className="text-lg font-bold">Event Highlights</span> <br />{" "}
+            <br />
+            Students dove into the world of Artificial Intelligence, gaining hands-on knowledge of AI Fundamentals and Advanced concepts. Participants received certification upon completion, empowering them to unlock new possibilities in AI.
+          </p>
+
+          <div className="grid grid-cols-2 gap-4">
+            <Image
+              src={hx1}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={hx2}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={hx4}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={hx3}
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+          </div>
+        </div>
+      )
+    },
+    {
       title: "22 Mar 2024",
       content: (
         <div>
@@ -111,16 +309,15 @@ export function TimelineSection() {
               theme === "dark" ? "text-neutral-200" : "text-neutral-800"
             } text-sm md:text-sm font-normal mb-8`}
           >
-           <i> Codehub in Collaboration with Shardeum.</i>
-        </p>
+            <i> Codehub in Collaboration with Shardeum.</i>
+          </p>
           <p
             className={` ${
               theme === "dark" ? "text-neutral-200" : "text-neutral-800"
             } text-sm md:text-sm font-normal mb-8`}
           >
-                        <span className="text-lg font-bold">Event Highlights</span> <br />{" "}
+            <span className="text-lg font-bold">Event Highlights</span> <br />{" "}
             <br />
-
             <strong>Event Collaboration:</strong> CodeHub in collaboration with
             Shardeum at JBIET hosted an insightful event centered around
             blockchain technology.
@@ -186,8 +383,8 @@ export function TimelineSection() {
               theme === "dark" ? "text-neutral-200" : "text-neutral-800"
             } text-sm md:text-sm font-normal mb-8`}
           >
-           <i> Codehub in Collaboration with iCompaas.</i>
-        </p>
+            <i> Codehub in Collaboration with iCompaas.</i>
+          </p>
           <p
             className={` ${
               theme === "dark" ? "text-neutral-200" : "text-neutral-800"
@@ -252,8 +449,8 @@ export function TimelineSection() {
               theme === "dark" ? "text-neutral-200" : "text-neutral-800"
             } text-sm md:text-sm font-normal mb-8`}
           >
-           <i> Codehub in Collaboration with Carrer Crafters.</i>
-        </p>
+            <i> Codehub in Collaboration with Carrer Crafters.</i>
+          </p>
           <p
             className={` ${
               theme === "dark" ? "text-neutral-200" : "text-neutral-800"
