@@ -101,7 +101,7 @@ export function TimelineSection() {
       )
     },
     {
-      title: "15 Sep 2024",
+      title: "26 Sep 2024",
       content: (
         <div>
           <h1
@@ -233,7 +233,7 @@ export function TimelineSection() {
       )
     },
     {
-      title: "15 Sep 2024",
+      title: "5 Sep 2024",
       content: (
         <div>
           <h1
