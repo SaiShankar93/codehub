@@ -59,7 +59,7 @@ export function Hackathon() {
 
                 <div className="flex gap-4 justify-center mb-12">
                     <a
-                        href="/"
+                        href="https://konfhub.com/widget/codeverse25?desc=false&secondaryBg=F7F7F7&ticketBg=F7F7F7&borderCl=F7F7F7&bg=FFFFFF&fontColor=572148&ticketCl=572148&btnColor=fb5850&fontFamily=Prompt&borderRadius=10"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`
