@@ -111,7 +111,7 @@ export function Hackathon() {
                 {/* Popup Component */}
                 {isPopupVisible && (
                     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50" onClick={closePopup}>
-                        <div className={`bg-white p-6 rounded-lg shadow-lg max-w-lg max-h-[80vh] overflow-y-auto ${theme === "dark" ? "bg-gray-800 text-white" : "bg-white text-black"}`} onClick={(e) => e.stopPropagation()}>
+                        <div className={`bg-gray p-6 rounded-lg shadow-lg max-w-lg max-h-[80vh] overflow-y-auto ${theme === "dark" ? "bg-gray-800 text-gray-100" : "bg-white text-black"}`} onClick={(e) => e.stopPropagation()}>
                             <h2 className="text-xl font-bold mb-4">Hackathon Information</h2>
                             {/* Updated Popup Content for Better Consistency */}
                             <div className="space-y-6 text-left leading-relaxed">
