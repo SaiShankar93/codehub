@@ -145,9 +145,7 @@ export function Hackathon() {
 
                                 <h3 className="text-lg font-semibold">🏆 Prizes & Rewards</h3>
                                 <ul className="list-disc list-inside space-y-1">
-                                    💰 1st Prize – ₹10,000 per team
-                                    <br />💰 Runners-up – ₹5,000 per team
-                                    <br />💰 2nd Runners-up – ₹5,000 per team
+                                    💰 Every Domain will have a exiciting cash prize for the top 3 teams.
                                 </ul>
 
                                 <h3 className="text-lg font-semibold">🎯 Why You Should Participate?</h3>
