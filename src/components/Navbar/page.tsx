@@ -18,7 +18,7 @@ export function Navbar() {
 
     const iconColor = theme === "dark" ? "text-white" : "text-black"; // Dynamic icon color
 
-    const links = [ 
+    const links = [
         {
             title: "Home",
             icon: <IconHome className={`h-full w-full ${iconColor}`} />,
@@ -27,7 +27,7 @@ export function Navbar() {
         {
             title: "Events",
             icon: <IconCalendarEvent className={`h-full w-full ${iconColor}`} />,
-            href: "/hackathon",
+            href: "https://tech-pulse-25.vercel.app",
         },
         {
             title: "Team",
