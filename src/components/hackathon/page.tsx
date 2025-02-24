@@ -56,7 +56,7 @@ export function Hackathon() {
                 <div className={`max-w-md mx-auto mb-12 ${theme === "dark" ? "bg-gray-800/50" : "bg-gray-100"} p-6 rounded-xl`}>
                     <h3 className={`text-xl font-bold mb-4 ${theme === "dark" ? "text-white" : "text-black"}`}>Themes</h3>
                     <div className="grid grid-cols-2 gap-4">
-                        <div className={`${theme === "dark" ? "text-blue-400" : "text-blue-600"} font-medium`}>ED TECH</div>
+                        <div className={`${theme === "dark" ? "text-blue-400" : "text-blue-600"} font-medium`}>AI TECH</div>
                         <div className={`${theme === "dark" ? "text-blue-400" : "text-blue-600"} font-medium`}>FIN TECH</div>
                         <div className={`${theme === "dark" ? "text-blue-400" : "text-blue-600"} font-medium`}>AGRI TECH</div>
                         <div className={`${theme === "dark" ? "text-blue-400" : "text-blue-600"} font-medium`}>HEALTH TECH</div>
