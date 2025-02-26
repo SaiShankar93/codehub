@@ -27,7 +27,7 @@ export function Navbar() {
         {
             title: "Events",
             icon: <IconCalendarEvent className={`h-full w-full ${iconColor}`} />,
-            href: "https://tech-pulse-25.vercel.app",
+            href: "https://techpulse.codehubjbiet.com/",
         },
         {
             title: "Team",
